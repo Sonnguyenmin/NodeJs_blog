@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonnguyenmin/NodeJs_blog.git"
+  },
+  "keywords": [
+    "Sshop"
+  ],
+  "author": "onnguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sonnguyenmin/NodeJs_blog/issues"
+  },
+  "homepage": "https://github.com/Sonnguyenmin/NodeJs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
